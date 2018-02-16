@@ -4,4 +4,4 @@ This is a repository for a node/socketio project chatApp,a basic real time chat 
 
 
 ## Technologies used
-NodeJs, ExpressJs, SocketIo
+AngularJs, NodeJs, ExpressJs, SocketIo
