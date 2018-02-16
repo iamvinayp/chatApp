@@ -1,0 +1,25 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "simple chat application using socket.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "chat",
+    "socket.io"
+  ],
+  "author": "Vinay Patil",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.1",
+    "mongoose": "^4.13.9",
+    "socket.io": "^2.0.4"
+  }
+}

@@ -1,0 +1,36 @@
+<style type="text/css">
+body {
+	padding-top: 5px;
+	background: #fff;  /*fallback for old browsers */
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+</style>
+
+<div class="login-page">
+	<div class="row" align="center">
+		<img src="images/chat.png" style="width: 60px;">
+	</div>
+	<div class="row" align="center">
+		<h4 style="color: #2b55ab;"><b>Chat app</b></h4>
+	</div>
+	<br />
+	<div class="form">
+		<form class="login-form">
+			<input type="text" placeholder="username" ng-model="userName" />
+			<input type="password" placeholder="password" ng-model="password" />
+			<button ng-click="login(userName, password);">login</button><br /><br />
+			<p><a ui-sref='signup'>Register</a></p>
+		</form>
+	</div>
+</div>
+
+<!--  Footer Starts here -->
+<footer>
+		<div class="pull-right">
+				<b>Copyright © 2017 Powered By <a href="https://www.edwisor.com">edWisor</a>
+				<br />All rights reserved.</b>
+		</div>
+		<b>&emsp;Version 1.0 Beta</b>
+</footer>

@@ -1,0 +1,11 @@
+<br /><br />
+
+<div id="chat" ng-init="emitJoinEvent();">
+	<h2>Chat</h2>
+	<div id="chat-window">
+		<div id="output"></div>
+		<div id="feedback"></div>
+	</div>
+	<input type="text" ng-model="message" ng-keypress="keypressEvent();" placeholder="Message" />
+	<button ng-click="emitChatEvent();">Send</button>
+</div>
